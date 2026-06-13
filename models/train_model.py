@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 
 def train_and_save():
     print("Загрузка датасета из репозитория GitHub...")
-    raw_csv_url = "https://github.com/arolga-noo/Project---Implementation-of-Machine-Learning-Models/blob/main/data/UCI_Credit_Card.csv"
+    raw_csv_url = "https://raw.githubusercontent.com/arolga-noo/Project---Implementation-of-Machine-Learning-Models/refs/heads/main/data/UCI_Credit_Card.csv"
     
     try:
         df = pd.read_csv(raw_csv_url)
