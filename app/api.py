@@ -44,6 +44,7 @@ def predict():
         df_input = pd.DataFrame(features_list)
         
         pipeline = get_model()
+        pipeline.named_steps['classifier'].multi_class = 'deprecated'
         probabilities = pipeline.predict_proba(df_input)[:, 1]
         predictions = pipeline.predict(df_input)
      
