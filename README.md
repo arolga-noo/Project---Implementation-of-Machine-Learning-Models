@@ -107,3 +107,4 @@ docker-compose up -d
 Готовый к эксплуатации и полностью собранный образ проекта опубликован в публичном репозитории:
 [https://docker.com](https://docker.com)  
 *(Замените `your_username` на ваш реальный логин Docker Hub после загрузки образа)*
+https://hub.docker.com/repository/docker/olgaarykova/credit-card-ml-service/general
