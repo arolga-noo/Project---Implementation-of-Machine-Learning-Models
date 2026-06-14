@@ -104,6 +104,8 @@ docker-compose up -d
       "status": "healthy"
     }
     ```
+<img width="974" height="185" alt="image" src="https://github.com/user-attachments/assets/b6f4923e-b9a6-42d7-9cdb-f61897af0802" />
+
 
 ### 2. Пакетный инференс модели (POST /predict)
 Принимает массив словарей с признаками клиентов в ключе `"features"`. Поддерживает батч-скоринг.
